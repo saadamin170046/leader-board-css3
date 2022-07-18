@@ -1,4 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.container {
+    background-color: #FFFFFF;
+    padding-left: 30px;
+}
+
 body {
     background-color: #F3F1FF;
-    F;
+    font-family: 'Merriweather', serif;
+}
+
+.title {
+    font-size: 24px;
+    color: #562EFF;
+    padding-top: 5px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+}
+
+.player-name {
+    padding-left: 18px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+/* top Blog */
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.article-image img {
+    width: 177px;
+    height: 117px;
+}
+
+.aricle-info p {
+    font-size: 20px;
+    font-weight: 500;
+    grid-row
+}
+
+.article-author p {
+    font-size: 16px;
+    color: #9F9F9F;
+
+}
+
+.article-author a {
+    text-decoration: none;
+    color: #562EFF;
 }
